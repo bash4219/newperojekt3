@@ -1,24 +1,31 @@
 # more strings and text
 
-
+# devining x
 x = "there are %d types fo people." %10
+# defining text
 binary = "binary"
+# defining don't
 donot = "don't"
+# defing y to yous 2 vaereubels
 y = "those who know %s and those who %s " % (binary, donot)
 
-
+# perinting x
 print(x)
+# perintinh y
 print(y)
-
+# perinting i said with vaereubels
 print("I said: %r.:" % x)
 print("I alos said: '%s'." % y)
-
+# defins this a true
 hilarious = True
+# defining vaeryubel with text
 jokeEvaluation = "ins't that joke so funny?! %r"
 
+# combind to vaereubels
 print(jokeEvaluation % hilarious)
-
+# defining w as text
 W = "this is the left side of..."
+# defining e as text
 e = "a string with a rith side"
 print(W+e)
 
@@ -43,3 +50,5 @@ end12 = "r"
 
 print(end1 + end2 + end3 + end4 + end5 +end6)
 print(end7 + end8 + end9 + end10 + end11 +end12)
+
+
