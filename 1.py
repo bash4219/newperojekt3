@@ -58,3 +58,11 @@ print(formatter % ("one", "tow", "three", "four"))
 print(formatter % (True, False, False, True))
 print(formatter % (formatter, formatter, formatter, formatter))
 
+# why do I use %r instead of %s in the above example?
+# anser
+# which should I use on a regular basis?
+# anser
+# why does %r sometimes give me single quotes around things?
+# anser
+
+
