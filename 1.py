@@ -99,9 +99,12 @@ print(backslashCat)
 print(topCat)
 
 # Escape Seq            What it does?
-# \\
-# \'
-# \"
+# \\ perints \ one time
+print("\\")
+# \' perints a sengel '
+print("\'")
+# \" perints dubel '
+print("\"")
 # \a
 # \b
 # \f
@@ -115,3 +118,10 @@ print(topCat)
 # \ooo
 # \xhh
 
+
+# What does the following code do:
+#   while True:
+#       for i in ["/", "-", "|", "\\", "|"]:
+#           print("%s\r" % i, end='')
+
+#  Can you use ''' instead of """ ?
