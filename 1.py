@@ -166,3 +166,4 @@ age = input("How old are you?")
 height = input("How tall are you?")
 
 print("So, you are %r old and %r tall." % (age, height))
+p
