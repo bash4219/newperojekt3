@@ -110,20 +110,25 @@ print("\a")
 # \b this removes the last cheariter
 print("ab" + "\b" + "c")
 # \f move werd after dawn and ferwerd
-print("hello\fworld")
+print("hello\fdad")
 # \n just move it dawn
-print("hello\nworld")
+print("redy\nplay ")
 # \N{name}  perints sheps
 print("\N{Hammer and sickle} = hapenes")
 # \r removes the stuf be for it
-print("wen i play bet saber mt\rmy dad bets me \N{White smiling face}")
-# \t
-# \uxxxx
-# \Uxxxxxxxx
-# \v
-# \ooo
-# \xhh
-
+print("wen i play bet saber \rmy dad bets me")
+# \t this tabs the text foerwerd
+print("\tthat herts")
+# \uxxxx perints a 16bit hex value / simbel
+print(u"\u041b")
+# \Uxxxxxxxx perints a 32bit hex value / simbel
+print(u"\U000001a9")
+# \v perints with a vertikel tab
+print("bt \v time to sak sume qestions")
+# \ooo perints chaeriters in the octal/8 valyou chaeriters
+print("\043")
+# \xhh perints chaeriters bast on hex value
+print("\x25")
 
 # What does the following code do:
 #   while True:
