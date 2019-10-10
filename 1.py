@@ -30,47 +30,72 @@ e = "a string with a rith side"
 print(W+e)
 
 # more printing fun
+# printing with vaereubels
 print("mary had a little lamb.")
+# printing with vaereubels
 print("its fleece was white as %s." % 'snow')
+# printing with vaereubels
 print("and everywhere that mary went.")
+# multipling . by 10
 print("." * 10)
+# asingin end1 vaereubel to text
 end1 = "c"
+# asingin end2 vaereubel to text
 end2 = "h"
+# asingin end3 vaereubel to text
 end3 = "e"
+# asingin end4 vaereubel to text
 end4 = "e"
+# asingin end5 vaereubel to text
 end5 = "s"
+# asingin end6 vaereubel to text
 end6 = "e"
+# asingin end7 vaereubel to text
 end7 = "B"
+# asingin end8 vaereubel to text
 end8 = "u"
+# asingin end9 vaereubel to text
 end9 = "r"
+# asingin end10 vaereubel to text
 end10 = "g"
+# asingin end11 vaereubel to text
 end11 = "e"
+# asingin end12 vaereubel to text
 end12 = "r"
 
-
+# adding end1-6 to mack a werd
 print(end1 + end2 + end3 + end4 + end5 +end6)
+#adding end7-12 to mack a werd
 print(end7 + end8 + end9 + end10 + end11 +end12)
 
 # but wait there's more:
+# foermattinf new vaery ubels tha are iner chanjeel?
 formatter = "%r %r %r %r"
+# seting new vaereubels
 print(formatter % (1, 2, 3, 4))
+# seting new vaereubels
 print(formatter % ("one", "tow", "three", "four"))
+# seting new vaereubels
 print(formatter % (True, False, False, True))
+# seting new vaereubels
 print(formatter % (formatter, formatter, formatter, formatter))
 
 # why do I use %r instead of %s in the above example?
-# anser
+# anser be cos %r is used for fermating vaerubels and %s only puts it in to a stering will %r dus that and it mack it a syntax
 # which should I use on a regular basis?
-# anser
+# anser %r
 # why does %r sometimes give me single quotes around things?
 # anser
 
+# asining vaereubels
 days = "Mon Tue Wed Thu Fri Sat Sun"
+# asining vaereubels
 months = "Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug"
-
+# perinting with vaerubels
 print("Here are the days: ", days)
+# perinting with vaerubels
 print("Here are the months: ", months)
-
+# """ alaws you to derop lins as much as you wont
 print("""
 There's something going on here.
 With the three double-quotes.
